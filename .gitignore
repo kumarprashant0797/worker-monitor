@@ -172,3 +172,21 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# models
+*.h5
+*.hdf5
+*.onnx
+*.pth
+*.pt
+
+# filepath
+/home/dev1/Final_Products/worker-monitor/1.txt
+1.txt
+

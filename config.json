@@ -1,0 +1,19 @@
+{
+    "video_source": "1.mp4",
+    "roi_x": 50,
+    "roi_y": 50,
+    "roi_width": 540,
+    "roi_height": 380,
+    "resize_width": 640,
+    "resize_height": 480,
+    "activity_threshold": 3000,
+    "working_frames_threshold": 15,
+    "idle_frames_threshold": 45,
+    "bg_history": 500,
+    "bg_threshold": 16,
+    "show_video": true,
+    "model_path": "models/MobileNetSSD_deploy.caffemodel",
+    "model_config": "models/MobileNetSSD_deploy.prototxt",
+    "confidence_threshold": 0.5,
+    "use_gpu": false
+}
