@@ -185,8 +185,6 @@ cython_debug/
 *.onnx
 *.pth
 *.pt
-*.caffemodel
-*.prototxt
 
 # filepath
 /home/dev1/Final_Products/worker-monitor/1.txt
