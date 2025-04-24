@@ -1,0 +1,200 @@
+2025-04-24 10:44:06,366 - INFO - Downloading model file to models/MobileNetSSD_deploy.caffemodel...
+2025-04-24 10:44:09,462 - INFO - Model file downloaded successfully.
+2025-04-24 10:44:09,462 - INFO - Downloading model config to models/MobileNetSSD_deploy.prototxt...
+2025-04-24 10:44:10,455 - INFO - Model config downloaded successfully.
+2025-04-24 10:44:10,486 - INFO - Human detection model loaded successfully
+2025-04-24 10:44:10,493 - INFO - Worker monitoring started
+2025-04-24 10:44:39,530 - INFO - Worker monitoring stopped
+2025-04-24 10:44:43,331 - INFO - Human detection model loaded successfully
+2025-04-24 10:44:43,332 - INFO - Worker monitoring started
+2025-04-24 10:44:48,656 - INFO - Worker monitoring stopped
+2025-04-24 10:44:55,372 - INFO - Human detection model loaded successfully
+2025-04-24 10:44:55,389 - INFO - Worker monitoring started
+2025-04-24 10:45:00,539 - INFO - Worker status changed to: Working
+2025-04-24 10:45:11,825 - INFO - Worker status changed to: Idle
+2025-04-24 10:45:16,787 - INFO - Worker status changed to: Working
+2025-04-24 10:46:39,398 - INFO - Worker status changed to: Idle
+2025-04-24 10:46:47,409 - INFO - Worker status changed to: Working
+2025-04-24 10:47:05,385 - INFO - Worker status changed to: Idle
+2025-04-24 10:47:06,796 - INFO - Worker status changed to: Working
+2025-04-24 10:47:44,467 - INFO - Worker status changed to: Idle
+2025-04-24 10:47:45,196 - INFO - Worker status changed to: Working
+2025-04-24 10:49:18,695 - INFO - Worker status changed to: Idle
+2025-04-24 10:49:20,125 - INFO - Worker status changed to: Working
+2025-04-24 10:49:53,082 - INFO - Worker status changed to: Idle
+2025-04-24 10:49:53,559 - INFO - Worker status changed to: Working
+2025-04-24 10:50:14,805 - INFO - Worker monitoring stopped
+2025-04-24 12:17:54,642 - INFO - Human detection model loaded successfully
+2025-04-24 12:17:54,660 - INFO - Worker monitoring started
+2025-04-24 12:17:59,858 - INFO - Worker status changed to: Working
+2025-04-24 12:18:09,834 - INFO - Worker status changed to: Idle
+2025-04-24 12:18:14,784 - INFO - Worker status changed to: Working
+2025-04-24 12:18:34,067 - INFO - Worker monitoring stopped
+2025-04-24 12:18:37,218 - INFO - Human detection model loaded successfully
+2025-04-24 12:18:37,221 - INFO - Worker monitoring started
+2025-04-24 12:18:47,697 - INFO - Worker status changed to: Working
+2025-04-24 12:18:49,461 - INFO - Worker status changed to: Idle
+2025-04-24 12:18:55,005 - INFO - Worker status changed to: Working
+2025-04-24 12:19:02,628 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:05,473 - INFO - Worker status changed to: Working
+2025-04-24 12:19:06,755 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:07,821 - INFO - Worker status changed to: Working
+2025-04-24 12:19:09,559 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:11,138 - INFO - Worker status changed to: Working
+2025-04-24 12:19:12,910 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:14,345 - INFO - Worker status changed to: Working
+2025-04-24 12:19:15,762 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:21,922 - INFO - Worker status changed to: Working
+2025-04-24 12:19:23,562 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:33,837 - INFO - Worker status changed to: Working
+2025-04-24 12:19:35,254 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:37,238 - INFO - Worker status changed to: Working
+2025-04-24 12:19:38,383 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:43,070 - INFO - Worker status changed to: Working
+2025-04-24 12:19:44,783 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:45,786 - INFO - Worker status changed to: Working
+2025-04-24 12:19:49,031 - INFO - Worker status changed to: Idle
+2025-04-24 12:19:54,457 - INFO - Worker status changed to: Working
+2025-04-24 12:19:56,250 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:00,102 - INFO - Worker status changed to: Working
+2025-04-24 12:20:00,964 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:05,353 - INFO - Worker status changed to: Working
+2025-04-24 12:20:11,302 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:11,552 - INFO - Worker status changed to: Working
+2025-04-24 12:20:12,472 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:15,779 - INFO - Worker status changed to: Working
+2025-04-24 12:20:16,756 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:19,000 - INFO - Worker status changed to: Working
+2025-04-24 12:20:22,454 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:23,367 - INFO - Worker status changed to: Working
+2025-04-24 12:20:24,750 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:26,815 - INFO - Worker status changed to: Working
+2025-04-24 12:20:29,374 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:41,199 - INFO - Worker status changed to: Working
+2025-04-24 12:20:42,399 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:45,984 - INFO - Worker status changed to: Working
+2025-04-24 12:20:48,067 - INFO - Worker status changed to: Idle
+2025-04-24 12:20:48,295 - INFO - Worker status changed to: Working
+2025-04-24 12:20:51,360 - INFO - Worker status changed to: Idle
+2025-04-24 12:21:03,522 - INFO - Worker status changed to: Working
+2025-04-24 12:21:04,456 - INFO - Worker status changed to: Idle
+2025-04-24 12:21:34,841 - INFO - Worker status changed to: Working
+2025-04-24 12:21:36,672 - INFO - Worker status changed to: Idle
+2025-04-24 12:21:42,418 - INFO - Worker status changed to: Working
+2025-04-24 12:21:50,234 - INFO - Worker status changed to: Idle
+2025-04-24 12:21:53,233 - INFO - Worker status changed to: Working
+2025-04-24 12:21:54,542 - INFO - Worker status changed to: Idle
+2025-04-24 12:21:55,681 - INFO - Worker status changed to: Working
+2025-04-24 12:21:57,489 - INFO - Worker status changed to: Idle
+2025-04-24 12:21:59,117 - INFO - Worker status changed to: Working
+2025-04-24 12:22:00,961 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:02,464 - INFO - Worker status changed to: Working
+2025-04-24 12:22:03,952 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:10,227 - INFO - Worker status changed to: Working
+2025-04-24 12:22:11,951 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:22,526 - INFO - Worker status changed to: Working
+2025-04-24 12:22:24,015 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:26,089 - INFO - Worker status changed to: Working
+2025-04-24 12:22:27,286 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:32,124 - INFO - Worker status changed to: Working
+2025-04-24 12:22:33,910 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:34,955 - INFO - Worker status changed to: Working
+2025-04-24 12:22:38,331 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:43,904 - INFO - Worker status changed to: Working
+2025-04-24 12:22:45,772 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:49,773 - INFO - Worker status changed to: Working
+2025-04-24 12:22:50,622 - INFO - Worker status changed to: Idle
+2025-04-24 12:22:55,084 - INFO - Worker status changed to: Working
+2025-04-24 12:23:01,188 - INFO - Worker status changed to: Idle
+2025-04-24 12:23:01,439 - INFO - Worker status changed to: Working
+2025-04-24 12:23:02,409 - INFO - Worker status changed to: Idle
+2025-04-24 12:23:05,813 - INFO - Worker status changed to: Working
+2025-04-24 12:23:06,853 - INFO - Worker status changed to: Idle
+2025-04-24 12:23:09,202 - INFO - Worker status changed to: Working
+2025-04-24 12:23:12,784 - INFO - Worker status changed to: Idle
+2025-04-24 12:23:13,744 - INFO - Worker status changed to: Working
+2025-04-24 12:23:15,201 - INFO - Worker status changed to: Idle
+2025-04-24 12:23:17,402 - INFO - Worker status changed to: Working
+2025-04-24 12:23:20,033 - INFO - Worker status changed to: Idle
+2025-04-24 12:23:28,471 - INFO - Worker monitoring stopped
+2025-04-24 12:23:36,416 - INFO - Human detection model loaded successfully
+2025-04-24 12:23:36,419 - INFO - Worker monitoring started
+2025-04-24 12:23:46,724 - INFO - Worker status changed to: Working
+2025-04-24 12:23:48,639 - INFO - Worker status changed to: Idle
+2025-04-24 12:23:54,438 - INFO - Worker status changed to: Working
+2025-04-24 12:24:02,373 - INFO - Worker status changed to: Idle
+2025-04-24 12:24:04,205 - INFO - Worker monitoring stopped
+2025-04-24 12:56:51,780 - INFO - Human detection model loaded successfully
+2025-04-24 12:56:51,783 - INFO - Worker monitoring started
+2025-04-24 12:57:00,897 - INFO - Worker status changed to: Working
+2025-04-24 12:57:01,893 - INFO - Worker status changed to: Idle
+2025-04-24 12:57:09,065 - INFO - Worker status changed to: Working
+2025-04-24 12:57:11,078 - INFO - Worker status changed to: Idle
+2025-04-24 12:57:12,079 - INFO - Worker status changed to: Working
+2025-04-24 12:57:13,883 - INFO - Worker status changed to: Idle
+2025-04-24 12:57:17,020 - INFO - Worker status changed to: Working
+2025-04-24 12:57:17,885 - INFO - Worker status changed to: Idle
+2025-04-24 12:57:19,804 - INFO - Worker status changed to: Working
+2025-04-24 12:57:20,692 - INFO - Worker status changed to: Idle
+2025-04-24 12:57:23,461 - INFO - Worker monitoring stopped
+2025-04-24 12:58:38,588 - INFO - Human detection model loaded successfully
+2025-04-24 12:58:38,592 - INFO - Worker monitoring started
+2025-04-24 12:58:47,944 - INFO - Worker status changed to: Working
+2025-04-24 12:58:49,540 - INFO - Worker status changed to: Idle
+2025-04-24 12:58:54,564 - INFO - Worker status changed to: Working
+2025-04-24 12:58:56,740 - INFO - Worker status changed to: Idle
+2025-04-24 12:58:57,589 - INFO - Worker status changed to: Working
+2025-04-24 12:59:02,371 - INFO - Worker status changed to: Idle
+2025-04-24 12:59:05,405 - INFO - Worker status changed to: Working
+2025-04-24 12:59:06,362 - INFO - Worker status changed to: Idle
+2025-04-24 12:59:10,906 - INFO - Worker status changed to: Working
+2025-04-24 12:59:11,414 - INFO - Worker monitoring stopped
+2025-04-24 12:59:12,845 - INFO - Human detection model loaded successfully
+2025-04-24 12:59:12,848 - INFO - Worker monitoring started
+2025-04-24 12:59:23,848 - INFO - Worker status changed to: Working
+2025-04-24 12:59:25,692 - INFO - Worker status changed to: Idle
+2025-04-24 12:59:31,360 - INFO - Worker status changed to: Working
+2025-04-24 12:59:40,037 - INFO - Worker status changed to: Idle
+2025-04-24 12:59:43,183 - INFO - Worker status changed to: Working
+2025-04-24 12:59:44,613 - INFO - Worker status changed to: Idle
+2025-04-24 12:59:45,834 - INFO - Worker status changed to: Working
+2025-04-24 12:59:47,776 - INFO - Worker status changed to: Idle
+2025-04-24 12:59:49,549 - INFO - Worker status changed to: Working
+2025-04-24 12:59:51,621 - INFO - Worker status changed to: Idle
+2025-04-24 12:59:53,205 - INFO - Worker status changed to: Working
+2025-04-24 12:59:54,805 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:01,556 - INFO - Worker status changed to: Working
+2025-04-24 13:00:03,449 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:14,998 - INFO - Worker status changed to: Working
+2025-04-24 13:00:16,600 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:18,806 - INFO - Worker status changed to: Working
+2025-04-24 13:00:20,089 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:25,206 - INFO - Worker status changed to: Working
+2025-04-24 13:00:27,142 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:28,297 - INFO - Worker status changed to: Working
+2025-04-24 13:00:31,865 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:37,736 - INFO - Worker status changed to: Working
+2025-04-24 13:00:39,681 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:44,017 - INFO - Worker status changed to: Working
+2025-04-24 13:00:44,938 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:49,734 - INFO - Worker status changed to: Working
+2025-04-24 13:00:56,184 - INFO - Worker status changed to: Idle
+2025-04-24 13:00:56,451 - INFO - Worker status changed to: Working
+2025-04-24 13:00:57,413 - INFO - Worker status changed to: Idle
+2025-04-24 13:01:00,785 - INFO - Worker status changed to: Working
+2025-04-24 13:01:01,795 - INFO - Worker status changed to: Idle
+2025-04-24 13:01:04,114 - INFO - Worker status changed to: Working
+2025-04-24 13:01:07,944 - INFO - Worker status changed to: Idle
+2025-04-24 13:01:08,965 - INFO - Worker status changed to: Working
+2025-04-24 13:01:10,522 - INFO - Worker status changed to: Idle
+2025-04-24 13:01:12,806 - INFO - Worker status changed to: Working
+2025-04-24 13:01:15,662 - INFO - Worker status changed to: Idle
+2025-04-24 13:01:28,971 - INFO - Worker status changed to: Working
+2025-04-24 13:01:30,258 - INFO - Worker status changed to: Idle
+2025-04-24 13:01:34,022 - INFO - Worker status changed to: Working
+2025-04-24 13:01:36,326 - INFO - Worker status changed to: Idle
+2025-04-24 13:01:36,563 - INFO - Worker status changed to: Working
+2025-04-24 13:01:39,959 - INFO - Worker status changed to: Idle
+2025-04-24 13:01:53,107 - INFO - Worker status changed to: Working
+2025-04-24 13:01:54,115 - INFO - Worker status changed to: Idle
+2025-04-24 13:02:00,030 - INFO - Worker monitoring stopped
