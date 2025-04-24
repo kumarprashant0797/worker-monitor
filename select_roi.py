@@ -1,4 +1,4 @@
-# python select_roi.py --cam <cam_url> --num <num> 
+# To run the file ------------------   python select_roi.py --cam <cam_url> --num <num> 
 # --cam: camera url or video file
 # --num: number of points in roi. [optional, default: 4]
 import numpy as np
