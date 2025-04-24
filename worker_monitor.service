@@ -1,0 +1,13 @@
+[Unit]
+Description=Worker Activity Monitoring System
+After=network.target
+
+[Service]
+User=dev1
+WorkingDirectory=/home/dev1/Final_Products/worker-monitor
+ExecStart=/usr/bin/python3 worker_monitor.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

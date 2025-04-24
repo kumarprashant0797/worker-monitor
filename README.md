@@ -1,92 +1,68 @@
 # Worker Activity Monitoring System
 
-This project is a standalone, vision-based system that detects whether a worker is actively engaged in a task or idle. It is optimized for low-cost hardware and automatically starts on system boot.
-
----
+A computer vision-based system that monitors if a worker is actively working. This system is optimized for low-cost hardware and auto-starts on boot.
 
 ## Features
 
-- Real-time video capture from webcam or video file
-- Lightweight ONNX-based inference for activity detection
-- Logs and displays worker activity status ("Working" or "Idle")
-- Auto-starts on boot using systemd
+- Real-time worker activity detection using MobileNet SSD model
+- Person detection and tracking
+- Region of interest (ROI) monitoring
+- Activity logging with timestamps
+- Auto-start on system boot
+- Optimized for low-cost hardware
 
----
+## Installation
 
-## Project Structure
+1. Make sure the configuration in `config.json` is correct:
+   - Set the proper video source (camera index or video file path)
+   - Adjust ROI coordinates to focus on the work area
+   - Configure detection thresholds as needed
 
-```
-worker-monitor/
-├── main.py                      # Entry point for video stream capture and inference
-├── activity_detector.py         # Preprocessing and ONNX model inference logic
-├── requirements.txt             # Required Python packages
-├── worker-monitor.service       # systemd service file for auto-start
-└── model/
-    └── worker_activity_model.onnx  # Placeholder ONNX model
-```
-
----
-
-## Setup Instructions
-
-### 1. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Download or Replace Model
-
-Replace `model/worker_activity_model.onnx` with a trained ONNX model that outputs a probability score for "Working" classification.
-
-> You can train your own using PyTorch/TensorFlow and export it to ONNX, or download one from ONNX Model Zoo.
-
-### 3. Run the Application
-
-```bash
-python main.py
-```
-
-> Modify the video source in `main.py` if you want to test on a saved video file instead of webcam.
-
-### 4. Setup Auto-Start with Systemd (Linux only)
-
-1. Copy `worker-monitor.service` to `/etc/systemd/system/`:
-   ```bash
-   sudo cp worker-monitor.service /etc/systemd/system/
+2. Run the installation script:
+   ```
+   chmod +x install.sh
+   ./install.sh
    ```
 
-2. Reload services:
-   ```bash
-   sudo systemctl daemon-reload
-   ```
+3. The system will install dependencies and set up the service to start automatically on boot.
+   - **Note:** The required model files will be automatically downloaded when the service runs for the first time.
 
-3. Enable and start service:
-   ```bash
-   sudo systemctl enable worker-monitor
-   sudo systemctl start worker-monitor
-   ```
+## Configuration
 
-4. Check logs:
-   ```bash
-   sudo journalctl -u worker-monitor.service
-   ```
+Edit the `config.json` file to adjust the following parameters:
 
----
+- `video_source`: Camera index (0, 1, etc.) or path to video file
+- `roi_x`, `roi_y`, `roi_width`, `roi_height`: Region of interest coordinates
+- `working_frames_threshold`: Number of consecutive active frames to consider "working"
+- `idle_frames_threshold`: Number of consecutive inactive frames to consider "idle"
+- `show_video`: Whether to display the video feed (set to false on headless systems)
+- `model_path`: Path to the MobileNet SSD model file
+- `model_config`: Path to the model configuration file
+- `confidence_threshold`: Minimum confidence for person detection (0.0-1.0)
+- `use_gpu`: Whether to use GPU acceleration if available
 
-## Commit Messages
+## Model Information
 
-Here are suggested Git commit messages for each file:
+This system uses a lightweight MobileNet SSD model for human detection:
+- MobileNet: A lightweight convolutional neural network designed for mobile and embedded vision applications
+- SSD (Single Shot MultiBox Detector): Efficient object detection algorithm
+- The model is optimized to run on CPU but can use GPU acceleration if available
 
-- `main.py`: `feat: add main app for real-time worker activity monitoring using webcam`
-- `activity_detector.py`: `feat: implement ONNX-based worker activity detection module`
-- `requirements.txt`: `chore: add dependency list for OpenCV, NumPy, and ONNX runtime`
-- `worker-monitor.service`: `feat: add systemd service file for auto-start on boot`
-- `model/worker_activity_model.onnx`: `chore: add placeholder ONNX model file`
-- `README.md`: `docs: add full project README with setup instructions and usage`
+## Logs
 
----
+Activity logs are stored in the `activity_log.txt` file, recording all status changes with timestamps.
 
-## License
+## Manual Operation
 
-MIT License
+- Start: `sudo systemctl start worker_monitor.service`
+- Stop: `sudo systemctl stop worker_monitor.service`
+- Status: `sudo systemctl status worker_monitor.service`
+- Run manually (for testing): `python3 worker_monitor.py`
+
+## System Requirements
+
+- Python 3.6+
+- OpenCV with DNN module
+- NumPy
+- Linux with systemd (for auto-start feature)
+- At least 1GB RAM for smooth operation
