@@ -1,33 +1,62 @@
 #!/bin/bash
 
-# Make sure we have the required packages
-echo "Installing dependencies..."
-sudo apt update
-sudo apt install -y python3 python3-pip python3-opencv
+echo "Installing Worker Activity Monitoring System..."
 
-# Install Python requirements
-pip3 install numpy opencv-python
+# Check if virtualenv is installed, if not install it
+if ! command -v virtualenv &> /dev/null; then
+    echo "Installing virtualenv..."
+    pip3 install virtualenv
+fi
 
-# Create directory for logs
-mkdir -p logs
+# Create virtual environment if it doesn't exist
+if [ ! -d "venv" ]; then
+    echo "Creating virtual environment..."
+    virtualenv venv
+fi
 
-# Make sure the script is executable
+# Activate virtual environment
+echo "Activating virtual environment..."
+source venv/bin/activate
+
+# Install dependencies
+echo "Installing Python dependencies..."
+pip install numpy opencv-python
+
+# Create necessary directories
+mkdir -p logs models
+
+# Make scripts executable
 chmod +x worker_monitor.py
+chmod +x select_roi.py
 
-# Copy the service file to systemd
-sudo cp worker_monitor.service /etc/systemd/system/
+# Generate service file but don't install it
+cat > worker_monitor.service << EOF
+[Unit]
+Description=Worker Activity Monitoring System
+After=network.target
 
-# Reload systemd
-sudo systemctl daemon-reload
+[Service]
+User=${USER}
+WorkingDirectory=$(pwd)
+ExecStart=$(pwd)/venv/bin/python $(pwd)/worker_monitor.py
+Environment="PYTHONUNBUFFERED=1"
+Restart=always
+RestartSec=10
 
-# Enable the service to start on boot
-sudo systemctl enable worker_monitor.service
+[Install]
+WantedBy=multi-user.target
+EOF
 
-# Start the service
-sudo systemctl start worker_monitor.service
-
-echo "Installation complete! Worker monitoring service is now running."
-echo "To check status: sudo systemctl status worker_monitor.service"
-echo "To stop service: sudo systemctl stop worker_monitor.service"
-echo "To start service: sudo systemctl start worker_monitor.service"
-echo "Note: Required model files will be automatically downloaded when the service runs."
+echo "Installation complete!"
+echo ""
+echo "To run the worker monitor manually:"
+echo "$ source venv/bin/activate"
+echo "$ python worker_monitor.py"
+echo ""
+echo "To install as a service (optional):"
+echo "$ sudo cp worker_monitor.service /etc/systemd/system/"
+echo "$ sudo systemctl daemon-reload"
+echo "$ sudo systemctl enable worker_monitor.service"
+echo "$ sudo systemctl start worker_monitor.service"
+echo ""
+echo "Note: Required model files will be automatically downloaded when the program runs."
