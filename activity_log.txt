@@ -198,3 +198,44 @@
 2025-04-24 13:01:53,107 - INFO - Worker status changed to: Working
 2025-04-24 13:01:54,115 - INFO - Worker status changed to: Idle
 2025-04-24 13:02:00,030 - INFO - Worker monitoring stopped
+2025-04-24 13:22:44,351 - INFO - Model loaded successfully
+2025-04-24 13:22:44,354 - INFO - Worker monitoring started
+2025-04-24 13:22:53,501 - INFO - Worker status changed to: Working
+2025-04-24 13:22:54,964 - INFO - Worker status changed to: Idle
+2025-04-24 13:22:57,146 - INFO - Worker monitoring stopped
+2025-04-24 13:26:02,804 - Model ready
+2025-04-24 13:26:02,807 - Monitoring started
+2025-04-24 13:26:12,015 - Worker status: Working
+2025-04-24 13:26:13,466 - Worker status: Idle
+2025-04-24 13:26:18,102 - Worker status: Working
+2025-04-24 13:26:25,275 - Worker status: Idle
+2025-04-24 13:26:28,118 - Worker status: Working
+2025-04-24 13:26:29,375 - Worker status: Idle
+2025-04-24 13:26:30,429 - Worker status: Working
+2025-04-24 13:26:32,149 - Worker status: Idle
+2025-04-24 13:26:33,709 - Worker status: Working
+2025-04-24 13:26:35,454 - Worker status: Idle
+2025-04-24 13:26:36,877 - Worker status: Working
+2025-04-24 13:26:38,277 - Worker status: Idle
+2025-04-24 13:26:44,382 - Worker status: Working
+2025-04-24 13:26:46,042 - Worker status: Idle
+2025-04-24 13:26:56,344 - Worker status: Working
+2025-04-24 13:26:57,818 - Worker status: Idle
+2025-04-24 13:26:59,866 - Worker status: Working
+2025-04-24 13:27:01,037 - Worker status: Idle
+2025-04-24 13:27:05,818 - Worker status: Working
+2025-04-24 13:27:07,563 - Worker status: Idle
+2025-04-24 13:27:08,573 - Worker status: Working
+2025-04-24 13:27:11,838 - Worker status: Idle
+2025-04-24 13:27:17,087 - Worker status: Working
+2025-04-24 13:27:18,912 - Worker status: Idle
+2025-04-24 13:27:22,681 - Worker status: Working
+2025-04-24 13:27:23,523 - Worker status: Idle
+2025-04-24 13:27:27,750 - Worker status: Working
+2025-04-24 13:27:33,522 - Worker status: Idle
+2025-04-24 13:27:33,762 - Worker status: Working
+2025-04-24 13:27:34,681 - Worker status: Idle
+2025-04-24 13:27:37,919 - Worker status: Working
+2025-04-24 13:27:38,901 - Worker status: Idle
+2025-04-24 13:27:41,180 - Worker status: Working
+2025-04-24 13:27:44,254 - Monitoring stopped

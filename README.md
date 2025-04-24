@@ -41,6 +41,29 @@ Edit the `config.json` file to adjust the following parameters:
 - `confidence_threshold`: Minimum confidence for person detection (0.0-1.0)
 - `use_gpu`: Whether to use GPU acceleration if available
 
+### ROI Selection Tool
+
+The system includes a convenient ROI (Region of Interest) selection tool to help you define the monitoring area:
+
+1. Run the ROI selection tool:
+   ```
+   python select_roi.py --cam <video_source>
+   ```
+   Where `<video_source>` is your camera index (0, 1) or video file path.
+
+2. When the image appears, click to select 4 corner points defining your region of interest.
+   - The tool will automatically close after 4 points are selected
+   - The terminal will display the calculated ROI coordinates
+
+3. Choose whether to automatically update your config.json file with the new ROI values.
+
+4. Optionally view a visualization of the selected ROI.
+
+Example usage:
+```
+python select_roi.py --cam 1.mp4
+```
+
 ## Model Information
 
 This system uses a lightweight MobileNet SSD model for human detection:
