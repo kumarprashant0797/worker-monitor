@@ -13,18 +13,24 @@ A computer vision-based system that monitors if a worker is actively working. Th
 
 ## Installation
 
-1. Make sure the configuration in `config.json` is correct:
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/worker-monitor.git
+   cd worker-monitor
+   ```
+
+2. Make sure the configuration in `config.json` is correct:
    - Set the proper video source (camera index or video file path)
    - Adjust ROI coordinates to focus on the work area
    - Configure detection thresholds as needed
 
-2. Run the installation script:
+3. Run the installation script:
    ```
    chmod +x install.sh
    ./install.sh
    ```
 
-3. The system will install dependencies and set up the service to start automatically on boot.
+4. The system will install dependencies and set up the service to start automatically on boot.
    - **Note:** The required model files will be automatically downloaded when the service runs for the first time.
 
 ## Configuration
