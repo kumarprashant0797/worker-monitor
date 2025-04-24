@@ -64,6 +64,21 @@ Example usage:
 python select_roi.py --cam 1.mp4
 ```
 
+## Screenshots
+
+Here are example screenshots from the monitoring system in operation:
+
+### Working State Detection
+![Worker Active 1](/home/dev1/Final_Products/worker-monitor/screenshots/worker_active_1.png)
+![Worker Active 2](/home/dev1/Final_Products/worker-monitor/screenshots/worker_active_2.png)
+![Worker Active 3](/home/dev1/Final_Products/worker-monitor/screenshots/worker_active_3.png)
+![Worker Active 4](/home/dev1/Final_Products/worker-monitor/screenshots/worker_idle_3.png)
+
+### Idle State Detection
+![Worker Idle 1](/home/dev1/Final_Products/worker-monitor/screenshots/worker_idle_5.png)
+![Worker Idle 2](/home/dev1/Final_Products/worker-monitor/screenshots/worker_idle_6.png)
+
+
 ## Model Information
 
 This system uses a lightweight MobileNet SSD model for human detection:
