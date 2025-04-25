@@ -82,7 +82,7 @@ Here are example screenshots from the monitoring system in operation:
 
 ### Idle State Detection
 ![Worker Idle 1](screenshots/worker_idle_5.png)
-![Worker Idle 2](screenshots/6.png)
+![Worker Idle 2](screenshots/worker_idle_6.png)
 
 
 ## Model Information
